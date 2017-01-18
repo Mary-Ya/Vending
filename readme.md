@@ -3,9 +3,9 @@
 ## Functions
 Idea was to implement most simple vending machine.
 My exemplar can do only the main functions:
-1. You can pay for your tea with only one available coin;
-2. You can choose sort of tea;
-3. You can take you tea.
+* You can pay for your tea with only one available coin;
+* You can choose sort of tea;
+* You can take you tea.
 
 I decided to focus on this functions because they are represent a full cycle of user experience with this vending.
 
@@ -29,7 +29,9 @@ UI was made fast and was not tested on mobiles.
 It's not pixel-perfect either.
 
 ## Usage
+```
 npm start
+```
 
 ## Boilerplate
 It works, have simple structure, have hot loader, set for React, Redux, SCSS applications.
