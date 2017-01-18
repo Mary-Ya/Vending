@@ -1,11 +1,11 @@
 # Cup of Tea - Machine
 
 ## Functions
-Idea was to implement most simple vending machine.
+The main idea was to implement the most simple vending machine.
 My exemplar can do only the main functions:
 * You can pay for your tea with only one available coin;
 * You can choose sort of tea;
-* You can take you tea.
+* You can take your tea.
 
 I decided to focus on this functions because they are represent a full cycle of user experience with this vending.
 
@@ -18,14 +18,14 @@ I omit such functions as
 - limit goods in machine;
 - maintaining (open and take money, add tea to machine);
 - etc.
-because this functions are can be added on existing vending machine.
+because this functions are can be added on existing code structure.
 
 ## UI
-Interface made flat and structured as real machine - it has controls block, showcase and delivery parts.
+Interface made flat and structured as real machine - it has Pay and Controls block, Showcase and Delivery parts.
 Elements styled with BEM.
 
 Disadvantages:
-UI was made fast and was not tested on mobiles.
+Was not tested on mobiles.
 It's not pixel-perfect either.
 
 ## Usage
@@ -39,7 +39,7 @@ It works, have simple structure, have hot loader, set for React, Redux, SCSS app
 https://github.com/DimitriMikadze/express-react-redux-starter.git
 
 ## Packages
-I'd try to keep project minimalistic, so use only necessary libraries and tools.
+I try to keep project minimalistic, so use only necessary libraries and tools.
 Test-tools and jQuery were removed as excess.
 
 ### React
