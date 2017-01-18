@@ -1,0 +1,54 @@
+@import '../../styles/variables.scss';
+
+.vending {
+    display: inline-block;
+    background-color: $color-blue;
+    min-width: 310px;
+    width: 310px;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+    &__controls {
+        width: 15%;
+        float: left;
+        background-color: $color-white;
+    }
+
+    &__mechanism {
+        margin-left: calc(15% + 90px);
+        height: 100%;
+    }
+
+    &__button {
+        font-size: large;
+        font-weight: 800;
+        padding: 0.5em 0.6em;
+        border-radius: 10px;
+        outline: none;
+        border: 0;
+        -webkit-appearance:none;
+        color: $color-white;
+        cursor: pointer;
+
+        &:after, &:focus {
+            outline: none;
+            border: 0;
+            -webkit-appearance:none;
+
+            -webkit-box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: inset 0px 3px 5px 0px rgba(0,0,0,0.75);
+        }
+
+        &:disabled {
+            background-color: $color-gray;
+            cursor: no-drop;
+        }
+    }
+}
+
+.rounded {
+    border-radius: 20px;
+    padding: $vending-margin;
+}

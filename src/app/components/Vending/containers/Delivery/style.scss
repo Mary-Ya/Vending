@@ -1,0 +1,13 @@
+@import '../../../../styles/variables.scss';
+
+.delivery {
+    background-color: $color-white;
+    margin-top: $vending-margin;
+}
+
+.cup-of-tea {
+    width: 100%;
+    content: ' ';
+    height: 1em;
+    border-radius: 5px;
+}

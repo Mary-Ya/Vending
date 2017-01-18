@@ -1,0 +1,36 @@
+@import '../../../../styles/variables.scss';
+
+.goods {
+    background-color: $color-white;
+    min-height: 60%;
+    cursor: no-drop;
+
+    &__select {
+        display: inline-block;
+        margin-top: $vending-margin / 2;
+        width: 100%;
+    }
+    &__item {
+        margin: 6px;
+        width: auto;
+        display: inline-block;
+        color: $color-white;
+
+        font-size: large;
+        font-weight: 800;
+        padding: 0.5em 0.6em;
+        border-radius: 10px;
+    }
+}
+
+.red-tea {
+    background-color: $color-red;
+}
+
+.blue-tea {
+    background-color: $color-blue;
+}
+
+.green-tea {
+    background-color: $color-green;
+}

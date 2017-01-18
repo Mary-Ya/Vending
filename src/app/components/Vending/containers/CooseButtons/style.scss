@@ -1,0 +1,11 @@
+@import '../../../../styles/variables.scss';
+
+.choose-buttons {
+    margin-top: $vending-margin / 2;
+
+    &__item {
+        display: inline-block;
+        margin-top: $vending-margin / 2;
+        width: 100%;
+    }
+}

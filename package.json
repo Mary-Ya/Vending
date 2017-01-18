@@ -1,0 +1,67 @@
+{
+  "name": "vending",
+  "version": "1.0.0",
+  "description": "Cup of Tea - Machine. Code challenge.",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
+    "build": "rm -rf dist && webpack --config ./webpack/webpack-prod.config.js --colors",
+    "lint": "eslint src test webpack"
+  },
+  "keywords": [
+    "ExpressJS",
+    "ReactJS",
+    "Redux",
+    "React hot loader",
+    "React Router",
+    "SCSS",
+    "Webpack Devevelopment configuration",
+    "Webpack Production configuration",
+    "Airbnb Eslint",
+    "pm2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mary-Ya/Vending"
+  },
+  "author": "Yanovskaya Maria",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.16.1",
+    "jsdom": "^9.0.0",
+    "node-sass": "^3.7.0",
+    "react-addons-test-utils": "^15.0.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.13.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "redux": "^3.5.2"
+  }
+}
